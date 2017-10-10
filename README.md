@@ -142,11 +142,18 @@ So in our code, we simply assign an attribute (**contacts**) with the data from 
 ## Output
 
 > Leanne Graham
+
 > Bret
+
 > Kulas Light Apt. 556
+
 > Gwenborough - 92998-3874
 
+
 > Ervin Howell
+
 > Antonette
+
 > Victor Plains Suite 879
+
 > Wisokyburgh - 90566-7771

@@ -1,29 +1,18 @@
-<!--The content below is only a placeholder and can be replaced.-->
-<div style="text-align:center">
-  <h1>
-    {{title}}
-  </h1>
+<div class="container">
+  <div style="text-align:center">
+    <h1>
+      {{title}}
+    </h1>
+  </div>
+  <h2>Here are some links to help you start: </h2>
+  <div class="card">
+    <ng-container *ngFor="let item of data.contacts">
+      <div class="contact-details">
+        <h1>{{item.name}}</h1>
+        <h2>{{item.username}}</h2>
+        <h3>{{item.address.street + ' ' + item.address.suite + ' '}}</h3>
+        <p>{{item.address.city}} - {{item.address.zipcode}}</p>
+      </div>
+    </ng-container>
+  </div>
 </div>
-<h2>Here are some links to help you start: </h2>
-<div class="card">
-  <ng-container *ngFor="let item of data.contacts">
-    <div class="contact-details">
-      <h1>{{item.name}}</h1>
-      <h2>{{item.username}}</h2>
-      <h3>{{item.address.street + ' ' + item.address.suite + ' '}}</h3>
-      <p>{{item.address.city}} - {{item.address.zipcode}}</p>
-    </div>
-    <hr/>
-  </ng-container>
-</div>
-<!-- <ul>
-  <li>
-    <h2><a target="_blank" rel="noopener" href="https://angular.io/tutorial">Tour of Heroes</a></h2>
-  </li>
-  <li>
-    <h2><a target="_blank" rel="noopener" href="https://github.com/angular/angular-cli/wiki">CLI Documentation</a></h2>
-  </li>
-  <li>
-    <h2><a target="_blank" rel="noopener" href="https://blog.angular.io/">Angular blog</a></h2>
-  </li>
-</ul> -->

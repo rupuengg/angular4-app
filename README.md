@@ -139,6 +139,34 @@ Filename - **app.component.html**
 ```
 So in our code, we simply assign an attribute (**contacts**) with the data from contacts. **data** is where we stored the response from the API and contacts is what the API has called the arrays. Then we assign all attributes (that the API has) to the **contact**. If anything seems unclear, like the attributes etc. Check what the console has given you. For example in my case, I have an array (**data**) in an array (**contacts**) therefore its **data.contacts** and not just **data**. Same goes for the attributes. The **let contact** however you could name whatever, like **let ebbaisbest**.
 
+Place some style in **app.component.css**
+```
+.container{
+  display:block;
+  margin:50px auto;
+  width:900px;
+}
+.card{
+  display:block;
+  clear:both;
+}
+.contact-details{
+  display: inline-block;
+  float: left;
+  width: 250px;
+  height:200px;
+  box-shadow: 2px 6px 7px 5px #cccccc;
+  margin: 0 20px 20px 0;
+  padding: 10px;
+}
+.contact-details h1{
+  font-size:18px;
+}
+.contact-details h2{
+  font-size:15px;
+}
+```
+
 ## Output
 
 > Leanne Graham

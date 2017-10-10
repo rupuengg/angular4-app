@@ -1,0 +1,24 @@
+.container{
+  display:block;
+  margin:50px auto;
+  width:900px;
+}
+.card{
+  display:block;
+  clear:both;
+}
+.contact-details{
+  display: inline-block;
+  float: left;
+  width: 250px;
+  height:200px;
+  box-shadow: 2px 6px 7px 5px #cccccc;
+  margin: 0 20px 20px 0;
+  padding: 10px;
+}
+.contact-details h1{
+  font-size:18px;
+}
+.contact-details h2{
+  font-size:15px;
+}

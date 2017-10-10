@@ -185,3 +185,14 @@ Place some style in **app.component.css**
 > Victor Plains Suite 879
 
 > Wisokyburgh - 90566-7771
+
+# Setting up this application follow step
+
+Fetch Application
+>git clone https://github.com/rupuengg/angular4-app.git
+
+Install All Dependencies
+>npm install
+
+Run Application
+>ng serve

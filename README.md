@@ -196,3 +196,6 @@ Install All Dependencies
 
 Run Application
 >ng serve
+
+
+Click [here](https://jsonplaceholder.typicode.com/) for sample API
